@@ -1,0 +1,27 @@
+h1 {
+	font-size: 65px;
+	font-family: Monotype Corsiva;
+}
+
+#nav {
+	text-align: center;
+}
+
+#nav a {
+	padding: 5px 40px;
+	font-size: 30px;
+	text-decoration: none;
+	
+}
+
+.container {
+	width: 80%;
+	margin: 30px 10%;
+	padding: 0px 10px;
+	font-size: 20px;
+	
+}
+
+div {
+ background: rgba(255, 255, 255, 0.5);
+}

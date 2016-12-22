@@ -1,0 +1,23 @@
+{%load staticfiles%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for i in programmers %}
+    <h1><a href = "/progs/get/{{i.id}}">{{i.name}}</a></h1>
+    <p> Surname:{{i.surname}}</p>
+    <p> Birthdate:{{i.birthdate}}</p>
+    <p> Job Experience:{{i.jobExperience}}</p>
+    <p> Salary:{{i.salary}}</p>
+    <p> Prog Language:{{i.progLang}}</p>
+    <hr>
+    <hr>
+{% endfor %}
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+[
+	{
+		"id": 1,
+		"name": "Anton",
+		"surname": "Salenko",
+		"birthdate": "1998-10-31",
+		"jobExperience": 1.5,
+		"salary": 3000,
+		"progLang": "C"
+	},
+
+	{
+		"id": 2,
+		"name": "Dima",
+		"surname": "Urukov",
+		"birthdate": "1998-01-31",
+		"jobExperience": 3.5,
+		"salary": 5000,
+		"progLang": "JS"
+	},
+		{
+		"id": 3,
+		"name": "Bogdan",
+		"surname": "Yatsuk",
+		"birthdate": "1996-10-08",
+		"jobExperience": 3.5,
+		"salary": 5000,
+		"progLang": "JS"
+	},
+		{
+		"id": 4,
+		"name": "Grigoriy",
+		"surname": "Komar",
+		"birthdate": "1998-04-24",
+		"jobExperience": 5,
+		"salary": 7000,
+		"progLang": "Scala"
+	},
+		{
+		"id": 5,
+		"name": "Ruslan",
+		"surname": "Hadyniak",
+		"birthdate": "1992-03-9",
+		"jobExperience": 5,
+		"salary": 7000,
+		"progLang": "C#"
+	},
+		{
+		"id": 6,
+		"name": "Volodymyr",
+		"surname": "Oliynik",
+		"birthdate": "1996-12-31",
+		"jobExperience": 3.5,
+		"salary": 3000,
+		"progLang": "Java"
+	},
+		{
+		"id": 7,
+		"name": "Nikita",
+		"surname": "Kholin",
+		"birthdate": "1998-04-18",
+		"jobExperience": 1.5,
+		"salary": 1000,
+		"progLang": "Ruby"
+	},
+		{
+		"id": 8,
+		"name": "Oleksandr",
+		"surname": "Melashchenko",
+		"birthdate": "1996-11-17",
+		"jobExperience": 3.5,
+		"salary": 4000,
+		"progLang": "C#"
+	},
+		{
+		"id": 9,
+		"name": "Andriy",
+		"surname": "Melnik",
+		"birthdate": "1995-06-13",
+		"jobExperience": 3.5,
+		"salary": 4000,
+		"progLang": "Python"
+	},
+		{
+		"id": 10,
+		"name": "Kostya",
+		"surname": "Sharovarsky",
+		"birthdate": "1998-04-13",
+		"jobExperience": 4.5,
+		"salary": 6000,
+		"progLang": "C#"
+	}
+]

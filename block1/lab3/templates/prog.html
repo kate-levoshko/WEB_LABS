@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        h1 {
+	font-size: 65px;
+	font-family: Monotype Corsiva;
+            }
+
+            #nav {
+                text-align: center;
+            }
+
+            #nav a {
+                padding: 5px 40px;
+                font-size: 30px;
+                text-decoration: none;
+
+            }
+
+            .container {
+                width: 80%;
+                margin: 30px 10%;
+                padding: 0px 10px;
+                font-size: 20px;
+
+            }
+
+            div {
+             background: rgba(255, 255, 255, 0.5);
+            }
+    </style>
+	<meta charset="UTF-8">
+	<title>{{ prog.name }} {{ prog.surname }}</title>
+</head>
+
+<body background="img/bg.jpg">
+	<h1 align="center">{{ prog.name }} {{ prog.surname }}</h1>
+
+	<div id="nav">
+		<a href="/">Home</a>
+		<a href="/progs/all/">Programmers</a>
+	</div>
+
+
+	<div class="container">
+		<p align="justify">
+			   {% if prog %}
+        <p> Name:{{prog.name}}</p>
+        <p> Surname:{{prog.surname}}</p>
+        <p> Birthdate:{{prog.birthdate}}</p>
+        <p> Job Experience:{{prog.jobExperience}}</p>
+        <p> Salary:{{prog.salary}}</p>
+        <p> Prog Language:{{prog.progLang}}</p>
+    <hr>
+{% endif %}
+
+		</p>
+	</div>
+</body>
+</html>
