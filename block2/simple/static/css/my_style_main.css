@@ -1,0 +1,64 @@
+ul.right{
+    
+    position: relative;
+    left:1300px;
+    width:10px;
+    height: 10px;
+    top: -60px;
+   
+    
+}
+    ul{
+    color:aquamarine;
+    list-style-type :none;
+}
+
+#login{
+    position: relative;
+    left:40%;
+    top:60%;
+}
+/*
+.karysel{
+    width: 100%;
+   /* left:50%;
+  margin: 0 auto;
+    
+}*/
+#range{
+    position: relative;
+    left: 50%;
+ 
+    width: 50%;
+    height: 100px;
+    
+    
+}
+#form{
+    width: 200px;
+    margin-top: auto;
+    position: relative;
+    left : 80px;
+}
+.signin{
+    position: relative;
+    left: 90px;
+    top:10px;
+   
+}
+/*
+.carousel-inner {}
+    .carousel-inner .item-box {
+        position: absolute;
+        z-index: 2;
+        width: 200px;
+        height: 100px;
+        
+        background: rgba(255, 255, 255, 0.75);
+    }
+    .carousel-inner .item-box.top {
+        top: 5%;
+    }
+    .carousel-inner .item-box.left {
+        left: 5%;
+    }*/
